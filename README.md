@@ -12,7 +12,7 @@ The package can be installed as:
           [{:alexa, "~> 0.1.6"}]
         end
 
-  2. Add alexa to your list of applications in `mix.exs`:
+  2. If running Elixir < 1.4, add alexa to your list of applications in `mix.exs`:
 
         def application do
           [applications: [:logger, :alexa]]
